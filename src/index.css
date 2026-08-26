@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  }
+}
+
+/* Custom glowing effects and dark theme scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e2235;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4261;
+}
+
+.glow-purple {
+  box-shadow: 0 0 35px -5px rgba(168, 85, 247, 0.25);
+}
+
+.glow-purple-lg {
+  box-shadow: 0 0 60px -10px rgba(168, 85, 247, 0.4);
+}
+
+.glow-blue {
+  box-shadow: 0 0 35px -5px rgba(56, 189, 248, 0.25);
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(135deg, #ffffff 30%, #c084fc 100%);
+}
+
+.bg-glass {
+  background: rgba(18, 20, 34, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.bg-glass-card {
+  background: rgba(18, 20, 34, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}

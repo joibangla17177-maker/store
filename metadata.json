@@ -1,0 +1,6 @@
+{
+  "name": "FORBIDEN App Store",
+  "description": "Official FORBIDEN application storefront showcasing Business Analyzer and performance-driven software.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
